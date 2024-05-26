@@ -28,7 +28,7 @@ function BioDataForm() {
   return (
     <div className='container'>
       <img className='bio-data' src={background}/>
-      <div>
+      <div className='form-container'>
         <h2>Bio Data Form</h2>
         <form ref={formRef}>
           <div className="form-group">
